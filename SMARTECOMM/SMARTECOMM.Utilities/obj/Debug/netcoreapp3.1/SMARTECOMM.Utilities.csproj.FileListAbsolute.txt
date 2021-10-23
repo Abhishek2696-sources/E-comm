@@ -1,0 +1,17 @@
+G:\Nitor-project\SMARTECOMM\SMARTECOMM.Utilities\obj\Debug\netcoreapp3.1\SMARTECOMM.Utilities.csproj.AssemblyReference.cache
+G:\Nitor-project\SMARTECOMM\SMARTECOMM.Utilities\obj\Debug\netcoreapp3.1\SMARTECOMM.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+G:\Nitor-project\SMARTECOMM\SMARTECOMM.Utilities\obj\Debug\netcoreapp3.1\SMARTECOMM.Utilities.AssemblyInfoInputs.cache
+G:\Nitor-project\SMARTECOMM\SMARTECOMM.Utilities\obj\Debug\netcoreapp3.1\SMARTECOMM.Utilities.AssemblyInfo.cs
+G:\Nitor-project\SMARTECOMM\SMARTECOMM.Utilities\obj\Debug\netcoreapp3.1\SMARTECOMM.Utilities.csproj.CoreCompileInputs.cache
+G:\Nitor-project\SMARTECOMM\SMARTECOMM.Utilities\bin\Debug\netcoreapp3.1\SMARTECOMM.Utilities.deps.json
+G:\Nitor-project\SMARTECOMM\SMARTECOMM.Utilities\bin\Debug\netcoreapp3.1\SMARTECOMM.Utilities.dll
+G:\Nitor-project\SMARTECOMM\SMARTECOMM.Utilities\bin\Debug\netcoreapp3.1\SMARTECOMM.Utilities.pdb
+G:\Nitor-project\SMARTECOMM\SMARTECOMM.Utilities\bin\Debug\netcoreapp3.1\SMARTECOMM.Infrastructure.dll
+G:\Nitor-project\SMARTECOMM\SMARTECOMM.Utilities\bin\Debug\netcoreapp3.1\SMARTECOMM.Repository.dll
+G:\Nitor-project\SMARTECOMM\SMARTECOMM.Utilities\bin\Debug\netcoreapp3.1\SMARTECOMM.Service.dll
+G:\Nitor-project\SMARTECOMM\SMARTECOMM.Utilities\bin\Debug\netcoreapp3.1\SMARTECOMM.Service.pdb
+G:\Nitor-project\SMARTECOMM\SMARTECOMM.Utilities\bin\Debug\netcoreapp3.1\SMARTECOMM.Infrastructure.pdb
+G:\Nitor-project\SMARTECOMM\SMARTECOMM.Utilities\bin\Debug\netcoreapp3.1\SMARTECOMM.Repository.pdb
+G:\Nitor-project\SMARTECOMM\SMARTECOMM.Utilities\obj\Debug\netcoreapp3.1\SMARTECOMM.Utilities.dll
+G:\Nitor-project\SMARTECOMM\SMARTECOMM.Utilities\obj\Debug\netcoreapp3.1\SMARTECOMM.Utilities.pdb
+G:\Nitor-project\SMARTECOMM\SMARTECOMM.Utilities\obj\Debug\netcoreapp3.1\SMARTECOMM.Utilities.csproj.CopyComplete

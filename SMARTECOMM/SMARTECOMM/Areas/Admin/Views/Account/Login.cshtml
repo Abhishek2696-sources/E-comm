@@ -1,0 +1,53 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> _signInManager;
+@model SMARTECOMM.Areas.Admin.Models.LoginViewModel
+
+@{ ViewData["Title"] = "Login";
+                Layout = "~/Areas/Admin/Views/Shared/SignIn_SignUp_Layout.cshtml"; }
+<div class="login-signin">
+    <div class="mb-20">
+        <h3>Sign In To Admin</h3>
+        <div class="text-muted font-weight-bold">Enter your details to login to your account:</div>
+    </div>
+    @using (Html.BeginForm("Login", "Account", FormMethod.Post, new { @class = "form" }))
+    {
+            <div class="form-group mb-5">
+                @Html.TextBoxFor(model => model.Email, new { @class = "form-control h-auto form-control-solid py-4 px-8", placeholder = "Email address" })
+                @Html.ValidationMessageFor(x => x.Email, "", new { @class = "text-danger" })
+                @*<input class="form-control h-auto form-control-solid py-4 px-8" type="text" placeholder="Email" name="username" autocomplete="off" />*@
+            </div>
+            <div>
+                <div class="form-group mb-5">
+                    @Html.PasswordFor(model => model.Password, new { @class = "form-control h-auto form-control-solid py-4 px-8", placeholder = "Password" })
+                    @Html.ValidationMessageFor(x => x.Password, "", new { @class = "text-danger" })
+                    @*<input class="form-control h-auto form-control-solid py-4 px-8" type="password" placeholder="Password" name="password" />*@
+                </div>
+            </div>
+            <div>
+                <div>
+                    <div class="form-group d-flex flex-wrap justify-content-between align-items-center">
+                        <div class="checkbox-inline">
+                            <label class="checkbox m-0 text-muted">
+                                <input type="checkbox" name="remember" />
+                                <span></span>
+                                Remember me
+                            </label>
+                        </div>
+                        @Html.ActionLink("Forget Password ?", "ForgotPassword", "Account", new { Area = "admin" }, new { @class = "text-muted text-hover-primary" })
+                        @*<a href="javascript:;" id="kt_login_forgot" class="text-muted text-hover-primary">Forget Password ?</a>*@
+                    </div>
+                </div>
+            </div>
+           <button id="kt_login_signin_submit" class="btn btn-primary font-weight-bold px-9 py-4 my-3 mx-4">Sign In</button>
+         }
+
+    <div class="mt-10">
+        <span class="opacity-70 mr-4">
+            Don't have an account yet?
+        </span>
+       
+                <a href="@Url.Action("Register","Account",new { Area = "Admin"})" class="text-muted text-hover-primary font-weight-bold">Sign Up!</a> @*<a href="/admin/account/register" class="text-muted text-hover-primary font-weight-bold">Sign Up!</a>*@
+       
+
+    </div>
+</div>

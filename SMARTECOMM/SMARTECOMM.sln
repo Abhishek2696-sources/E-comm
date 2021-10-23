@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMARTECOMM", "SMARTECOMM\SMARTECOMM.csproj", "{2E3B6EEF-A63F-4AE4-B505-F769E99A592B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMARTECOMM.Infrastructure", "SMARTECOMM.Infrastructure\SMARTECOMM.Infrastructure.csproj", "{AF67157B-5EF4-42C6-B667-97D9C18FD544}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMARTECOMM.Repository", "SMARTECOMM.Repository\SMARTECOMM.Repository.csproj", "{5AE1A3CB-0FA6-401F-A98F-BB72BE556E98}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMARTECOMM.Service", "SMARTECOMM.Service\SMARTECOMM.Service.csproj", "{B40A5CC7-7848-482E-8295-EE189C0CDE26}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SMARTECOMM.Utilities", "SMARTECOMM.Utilities\SMARTECOMM.Utilities.csproj", "{B234E414-528A-4B1A-9644-091781AD028F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E3B6EEF-A63F-4AE4-B505-F769E99A592B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E3B6EEF-A63F-4AE4-B505-F769E99A592B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E3B6EEF-A63F-4AE4-B505-F769E99A592B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E3B6EEF-A63F-4AE4-B505-F769E99A592B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF67157B-5EF4-42C6-B667-97D9C18FD544}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF67157B-5EF4-42C6-B667-97D9C18FD544}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF67157B-5EF4-42C6-B667-97D9C18FD544}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF67157B-5EF4-42C6-B667-97D9C18FD544}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5AE1A3CB-0FA6-401F-A98F-BB72BE556E98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5AE1A3CB-0FA6-401F-A98F-BB72BE556E98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5AE1A3CB-0FA6-401F-A98F-BB72BE556E98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5AE1A3CB-0FA6-401F-A98F-BB72BE556E98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B40A5CC7-7848-482E-8295-EE189C0CDE26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B40A5CC7-7848-482E-8295-EE189C0CDE26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B40A5CC7-7848-482E-8295-EE189C0CDE26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B40A5CC7-7848-482E-8295-EE189C0CDE26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B234E414-528A-4B1A-9644-091781AD028F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B234E414-528A-4B1A-9644-091781AD028F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B234E414-528A-4B1A-9644-091781AD028F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B234E414-528A-4B1A-9644-091781AD028F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {105FC3C7-120B-4020-9BDC-ED400114D7EF}
+	EndGlobalSection
+EndGlobal
